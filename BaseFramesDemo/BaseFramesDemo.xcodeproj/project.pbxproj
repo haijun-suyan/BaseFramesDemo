@@ -60,12 +60,340 @@
 				F31B4A33258F216C004E77B4 /* AppDelegate.m */,
 				F31B4A35258F216C004E77B4 /* SceneDelegate.h */,
 				F31B4A36258F216C004E77B4 /* SceneDelegate.m */,
+				F3BDD1EC258FB15600A2FE82 /* ProtocolFiles */,
+				F3BDD1EB258FB02F00A2FE82 /* PatternsDesign */,
+				F3BDD1E5258FAB6E00A2FE82 /* Resource */,
+				F3BDD1DE258FAAF400A2FE82 /* BottomSupportLibs */,
+				F3BDD1C3258F9EE900A2FE82 /* Class */,
+				F3BDD1C2258F9A5700A2FE82 /* Config */,
 				F31B4A3E258F216D004E77B4 /* Assets.xcassets */,
 				F31B4A40258F216D004E77B4 /* LaunchScreen.storyboard */,
 				F31B4A43258F216D004E77B4 /* Info.plist */,
 				F31B4A44258F216D004E77B4 /* main.m */,
 			);
 			path = BaseFramesDemo;
+			sourceTree = "<group>";
+		};
+		F3BDD1C2258F9A5700A2FE82 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F3BDD1C3258F9EE900A2FE82 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD1D8258FA5CE00A2FE82 /* FiveModule */,
+				F3BDD1C4258F9EE900A2FE82 /* TwoModule */,
+				F3BDD1C9258F9EE900A2FE82 /* FourModule */,
+				F3BDD1CE258F9EE900A2FE82 /* OneModule */,
+				F3BDD1D3258F9EE900A2FE82 /* ThreeModule */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F3BDD1C4258F9EE900A2FE82 /* TwoModule */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD1C5258F9EE900A2FE82 /* Others */,
+				F3BDD1C6258F9EE900A2FE82 /* Models */,
+				F3BDD1C7258F9EE900A2FE82 /* Controllers */,
+				F3BDD1C8258F9EE900A2FE82 /* Views */,
+			);
+			path = TwoModule;
+			sourceTree = "<group>";
+		};
+		F3BDD1C5258F9EE900A2FE82 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F3BDD1C6258F9EE900A2FE82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3BDD1C7258F9EE900A2FE82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3BDD1C8258F9EE900A2FE82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3BDD1C9258F9EE900A2FE82 /* FourModule */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD1CA258F9EE900A2FE82 /* Others */,
+				F3BDD1CB258F9EE900A2FE82 /* Models */,
+				F3BDD1CC258F9EE900A2FE82 /* Controllers */,
+				F3BDD1CD258F9EE900A2FE82 /* Views */,
+			);
+			path = FourModule;
+			sourceTree = "<group>";
+		};
+		F3BDD1CA258F9EE900A2FE82 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F3BDD1CB258F9EE900A2FE82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3BDD1CC258F9EE900A2FE82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3BDD1CD258F9EE900A2FE82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3BDD1CE258F9EE900A2FE82 /* OneModule */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD1CF258F9EE900A2FE82 /* Others */,
+				F3BDD1D0258F9EE900A2FE82 /* Models */,
+				F3BDD1D1258F9EE900A2FE82 /* Controllers */,
+				F3BDD1D2258F9EE900A2FE82 /* Views */,
+			);
+			path = OneModule;
+			sourceTree = "<group>";
+		};
+		F3BDD1CF258F9EE900A2FE82 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F3BDD1D0258F9EE900A2FE82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3BDD1D1258F9EE900A2FE82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3BDD1D2258F9EE900A2FE82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3BDD1D3258F9EE900A2FE82 /* ThreeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD1D4258F9EE900A2FE82 /* Others */,
+				F3BDD1D5258F9EE900A2FE82 /* Models */,
+				F3BDD1D6258F9EE900A2FE82 /* Controllers */,
+				F3BDD1D7258F9EE900A2FE82 /* Views */,
+			);
+			path = ThreeModule;
+			sourceTree = "<group>";
+		};
+		F3BDD1D4258F9EE900A2FE82 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F3BDD1D5258F9EE900A2FE82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3BDD1D6258F9EE900A2FE82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3BDD1D7258F9EE900A2FE82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3BDD1D8258FA5CE00A2FE82 /* FiveModule */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD1D9258FA5CE00A2FE82 /* ViewModels */,
+				F3BDD1DA258FA5CE00A2FE82 /* Others */,
+				F3BDD1DB258FA5CE00A2FE82 /* Models */,
+				F3BDD1DC258FA5CE00A2FE82 /* Controllers */,
+				F3BDD1DD258FA5CE00A2FE82 /* Views */,
+			);
+			path = FiveModule;
+			sourceTree = "<group>";
+		};
+		F3BDD1D9258FA5CE00A2FE82 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F3BDD1DA258FA5CE00A2FE82 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F3BDD1DB258FA5CE00A2FE82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3BDD1DC258FA5CE00A2FE82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3BDD1DD258FA5CE00A2FE82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3BDD1DE258FAAF400A2FE82 /* BottomSupportLibs */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD1DF258FAAF400A2FE82 /* ThirdPartyLibs */,
+				F3BDD1E0258FAAF400A2FE82 /* SystemLibs */,
+				F3BDD1E1258FAAF400A2FE82 /* GeneralToolLibs */,
+				F3BDD1E2258FAAF400A2FE82 /* CustomLibs */,
+				F3BDD1E3258FAAF400A2FE82 /* CompanyToolLibs */,
+				F3BDD1E4258FAAF400A2FE82 /* ServerLibs */,
+			);
+			path = BottomSupportLibs;
+			sourceTree = "<group>";
+		};
+		F3BDD1DF258FAAF400A2FE82 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		F3BDD1E0258FAAF400A2FE82 /* SystemLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SystemLibs;
+			sourceTree = "<group>";
+		};
+		F3BDD1E1258FAAF400A2FE82 /* GeneralToolLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GeneralToolLibs;
+			sourceTree = "<group>";
+		};
+		F3BDD1E2258FAAF400A2FE82 /* CustomLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomLibs;
+			sourceTree = "<group>";
+		};
+		F3BDD1E3258FAAF400A2FE82 /* CompanyToolLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CompanyToolLibs;
+			sourceTree = "<group>";
+		};
+		F3BDD1E4258FAAF400A2FE82 /* ServerLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServerLibs;
+			sourceTree = "<group>";
+		};
+		F3BDD1E5258FAB6E00A2FE82 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDD1E6258FAD3C00A2FE82 /* Audios */,
+				F3BDD1E7258FAD3C00A2FE82 /* Images */,
+				F3BDD1E8258FAD3C00A2FE82 /* Vidios */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F3BDD1E6258FAD3C00A2FE82 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		F3BDD1E7258FAD3C00A2FE82 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F3BDD1E8258FAD3C00A2FE82 /* Vidios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vidios;
+			sourceTree = "<group>";
+		};
+		F3BDD1EB258FB02F00A2FE82 /* PatternsDesign */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PatternsDesign;
+			sourceTree = "<group>";
+		};
+		F3BDD1EC258FB15600A2FE82 /* ProtocolFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProtocolFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
