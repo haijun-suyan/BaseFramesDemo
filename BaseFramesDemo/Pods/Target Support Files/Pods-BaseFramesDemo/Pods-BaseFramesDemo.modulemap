@@ -1,0 +1,6 @@
+framework module Pods_BaseFramesDemo {
+  umbrella header "Pods-BaseFramesDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
