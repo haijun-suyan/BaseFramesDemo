@@ -1,4 +1,5 @@
-//
+//  Xcode11前:项目工程中只存在AppDelegate类/不存在SceneDelegate类
+//  Xcode11后:项目工程中存在AppDelegate类文件/存在SceneDelegate类文件
 //  AppDelegate.m
 //  BaseFramesDemo
 //
@@ -17,11 +18,12 @@
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //Xcode11前
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-
     UIViewController *vC = [[CustomViewController alloc] init];
     self.window.rootViewController = vC;
+    //window核心化可见
     [self.window makeKeyAndVisible];
     return YES;
 }

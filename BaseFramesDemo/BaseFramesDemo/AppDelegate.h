@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (nonatomic,strong) UIWindow *window;
+//工程师自增window字段名
+@property(nonatomic,strong)UIWindow *window;
+
 @end
 
