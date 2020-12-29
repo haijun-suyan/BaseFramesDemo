@@ -16,6 +16,7 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions  API_AVAILABLE(ios(13.0)) API_AVAILABLE(ios(13.0)) API_AVAILABLE(ios(13.0)){
+    //Xcode11后生效
     //scene行参字段名表象特征结构为UIScene*但持有的实例值的实际特征结构为UIWindowScene*
     //强制类型转化
     if (@available(iOS 13.0, *)) {
