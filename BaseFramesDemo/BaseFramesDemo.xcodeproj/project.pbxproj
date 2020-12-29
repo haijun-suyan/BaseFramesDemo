@@ -13,6 +13,7 @@
 		F31B4A3F258F216D004E77B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31B4A3E258F216D004E77B4 /* Assets.xcassets */; };
 		F31B4A42258F216D004E77B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31B4A40258F216D004E77B4 /* LaunchScreen.storyboard */; };
 		F31B4A45258F216D004E77B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31B4A44258F216D004E77B4 /* main.m */; };
+		F3591A8C259B57EE00CF881B /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3591A8B259B57EE00CF881B /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		F31B4A41258F216D004E77B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F31B4A43258F216D004E77B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F31B4A44258F216D004E77B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3591A8A259B57EE00CF881B /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		F3591A8B259B57EE00CF881B /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		F3CB0B902593820700D330F1 /* BaseFramesDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseFramesDemo-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +89,7 @@
 				F31B4A33258F216C004E77B4 /* AppDelegate.m */,
 				F31B4A35258F216C004E77B4 /* SceneDelegate.h */,
 				F31B4A36258F216C004E77B4 /* SceneDelegate.m */,
+				F3591A89259B579200CF881B /* RootViewController */,
 				F3BDD1EC258FB15600A2FE82 /* ProtocolFiles */,
 				F3BDD1EB258FB02F00A2FE82 /* PatternsDesign */,
 				F3BDD1E5258FAB6E00A2FE82 /* Resource */,
@@ -98,6 +102,15 @@
 				F31B4A44258F216D004E77B4 /* main.m */,
 			);
 			path = BaseFramesDemo;
+			sourceTree = "<group>";
+		};
+		F3591A89259B579200CF881B /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3591A8A259B57EE00CF881B /* CustomViewController.h */,
+				F3591A8B259B57EE00CF881B /* CustomViewController.m */,
+			);
+			path = RootViewController;
 			sourceTree = "<group>";
 		};
 		F3BDD1C2258F9A5700A2FE82 /* Config */ = {
@@ -538,6 +551,7 @@
 				F31B4A34258F216C004E77B4 /* AppDelegate.m in Sources */,
 				F31B4A45258F216D004E77B4 /* main.m in Sources */,
 				F31B4A37258F216C004E77B4 /* SceneDelegate.m in Sources */,
+				F3591A8C259B57EE00CF881B /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
