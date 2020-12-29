@@ -1,4 +1,4 @@
-//
+//  UIWindowSceneDelegate窗口场景协议代理
 //  SceneDelegate.h
 //  BaseFramesDemo
 //
@@ -10,7 +10,7 @@
 
 @interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 
-@property (strong, nonatomic) UIWindow * window;
+@property(strong,nonatomic)UIWindow *window;
 
 @end
 

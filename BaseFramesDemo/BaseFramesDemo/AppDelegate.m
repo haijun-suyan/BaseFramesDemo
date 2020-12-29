@@ -1,5 +1,5 @@
-//  Xcode11前:项目工程中只存在AppDelegate类/不存在SceneDelegate类
-//  Xcode11后:项目工程中存在AppDelegate类文件/存在SceneDelegate类文件
+//  Xcode11前:项目工程中只存在AppDelegate类/不存在SceneDelegate类(只走AppDelegate中)
+//  Xcode11后:项目工程中存在AppDelegate类文件/存在SceneDelegate类文件(先走AppDelegate然后走SceneDelegate)
 //  AppDelegate.m
 //  BaseFramesDemo
 //
