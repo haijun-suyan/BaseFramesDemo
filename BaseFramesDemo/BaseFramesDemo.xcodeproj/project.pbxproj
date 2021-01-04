@@ -29,6 +29,8 @@
 		F31B4A41258F216D004E77B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F31B4A43258F216D004E77B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F31B4A44258F216D004E77B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F338E14D25A2B82C00763D45 /* PCConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCConfig.h; sourceTree = "<group>"; };
+		F338E15125A2F73B00763D45 /* ReadMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMe.h; sourceTree = "<group>"; };
 		F3591A8A259B57EE00CF881B /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		F3591A8B259B57EE00CF881B /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		F3591A8E259B777700CF881B /* BatchIntroduceBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatchIntroduceBase.h; sourceTree = "<group>"; };
@@ -128,6 +130,8 @@
 		F3BDD1C2258F9A5700A2FE82 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				F338E14D25A2B82C00763D45 /* PCConfig.h */,
+				F338E15125A2F73B00763D45 /* ReadMe.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
