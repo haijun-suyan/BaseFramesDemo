@@ -13,6 +13,10 @@
 		F31B4A3F258F216D004E77B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31B4A3E258F216D004E77B4 /* Assets.xcassets */; };
 		F31B4A42258F216D004E77B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31B4A40258F216D004E77B4 /* LaunchScreen.storyboard */; };
 		F31B4A45258F216D004E77B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31B4A44258F216D004E77B4 /* main.m */; };
+		F338E15625A3455300763D45 /* AppDelegate+DataCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = F338E15525A3455300763D45 /* AppDelegate+DataCollection.m */; };
+		F338E15925A347CC00763D45 /* AppDelegate+ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F338E15825A347CC00763D45 /* AppDelegate+ServiceManager.m */; };
+		F338E15C25A3485C00763D45 /* AppDelegate+LifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = F338E15B25A3485C00763D45 /* AppDelegate+LifeCircle.m */; };
+		F338E15F25A348AF00763D45 /* AppDelegate+RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = F338E15E25A348AF00763D45 /* AppDelegate+RootController.m */; };
 		F3591A8C259B57EE00CF881B /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3591A8B259B57EE00CF881B /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,14 @@
 		F31B4A44258F216D004E77B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F338E14D25A2B82C00763D45 /* PCConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCConfig.h; sourceTree = "<group>"; };
 		F338E15125A2F73B00763D45 /* ReadMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMe.h; sourceTree = "<group>"; };
+		F338E15425A3455300763D45 /* AppDelegate+DataCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DataCollection.h"; sourceTree = "<group>"; };
+		F338E15525A3455300763D45 /* AppDelegate+DataCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DataCollection.m"; sourceTree = "<group>"; };
+		F338E15725A347CC00763D45 /* AppDelegate+ServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ServiceManager.h"; sourceTree = "<group>"; };
+		F338E15825A347CC00763D45 /* AppDelegate+ServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ServiceManager.m"; sourceTree = "<group>"; };
+		F338E15A25A3485C00763D45 /* AppDelegate+LifeCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LifeCircle.h"; sourceTree = "<group>"; };
+		F338E15B25A3485C00763D45 /* AppDelegate+LifeCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LifeCircle.m"; sourceTree = "<group>"; };
+		F338E15D25A348AF00763D45 /* AppDelegate+RootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RootController.h"; sourceTree = "<group>"; };
+		F338E15E25A348AF00763D45 /* AppDelegate+RootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RootController.m"; sourceTree = "<group>"; };
 		F3591A8A259B57EE00CF881B /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		F3591A8B259B57EE00CF881B /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		F3591A8E259B777700CF881B /* BatchIntroduceBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatchIntroduceBase.h; sourceTree = "<group>"; };
@@ -93,6 +105,7 @@
 				F31B4A33258F216C004E77B4 /* AppDelegate.m */,
 				F31B4A35258F216C004E77B4 /* SceneDelegate.h */,
 				F31B4A36258F216C004E77B4 /* SceneDelegate.m */,
+				F338E15325A344CE00763D45 /* AppDelegateEx */,
 				F3591A8D259B757D00CF881B /* BatchIntroduceAPI */,
 				F3591A89259B579200CF881B /* RootViewController */,
 				F3BDD1EC258FB15600A2FE82 /* ProtocolFiles */,
@@ -107,6 +120,21 @@
 				F31B4A44258F216D004E77B4 /* main.m */,
 			);
 			path = BaseFramesDemo;
+			sourceTree = "<group>";
+		};
+		F338E15325A344CE00763D45 /* AppDelegateEx */ = {
+			isa = PBXGroup;
+			children = (
+				F338E15425A3455300763D45 /* AppDelegate+DataCollection.h */,
+				F338E15525A3455300763D45 /* AppDelegate+DataCollection.m */,
+				F338E15725A347CC00763D45 /* AppDelegate+ServiceManager.h */,
+				F338E15825A347CC00763D45 /* AppDelegate+ServiceManager.m */,
+				F338E15A25A3485C00763D45 /* AppDelegate+LifeCircle.h */,
+				F338E15B25A3485C00763D45 /* AppDelegate+LifeCircle.m */,
+				F338E15D25A348AF00763D45 /* AppDelegate+RootController.h */,
+				F338E15E25A348AF00763D45 /* AppDelegate+RootController.m */,
+			);
+			path = AppDelegateEx;
 			sourceTree = "<group>";
 		};
 		F3591A89259B579200CF881B /* RootViewController */ = {
@@ -567,6 +595,10 @@
 				F31B4A34258F216C004E77B4 /* AppDelegate.m in Sources */,
 				F31B4A45258F216D004E77B4 /* main.m in Sources */,
 				F31B4A37258F216C004E77B4 /* SceneDelegate.m in Sources */,
+				F338E15625A3455300763D45 /* AppDelegate+DataCollection.m in Sources */,
+				F338E15C25A3485C00763D45 /* AppDelegate+LifeCircle.m in Sources */,
+				F338E15925A347CC00763D45 /* AppDelegate+ServiceManager.m in Sources */,
+				F338E15F25A348AF00763D45 /* AppDelegate+RootController.m in Sources */,
 				F3591A8C259B57EE00CF881B /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

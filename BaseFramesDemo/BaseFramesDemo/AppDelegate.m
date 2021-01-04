@@ -8,6 +8,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+DataCollection.h"
 #import "CustomViewController.h"
 
 @interface AppDelegate ()

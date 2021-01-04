@@ -1,4 +1,4 @@
-//
+//  应用辅助代理类
 //  AppDelegate.h
 //  BaseFramesDemo
 //
