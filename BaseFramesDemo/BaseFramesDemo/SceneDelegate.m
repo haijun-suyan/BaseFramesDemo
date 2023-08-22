@@ -19,17 +19,17 @@
     //Xcode11后生效
     //scene行参字段名表象特征结构为UIScene*但持有的实例值的实际特征结构为UIWindowScene*
     //强制类型转化
-//    if (@available(iOS 13.0, *)) {
-//        UIWindowScene *windowScene = (UIWindowScene *)scene;
-//        self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
-//    } else {
-//        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    }
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    UIViewController *vC = [[CustomViewController alloc] init];
-//    self.window.rootViewController = vC;
-//    //window核心化可见
-//    [self.window makeKeyAndVisible];
+    if (@available(iOS 13.0, *)) {
+        UIWindowScene *windowScene = (UIWindowScene *)scene;
+        self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+    } else {
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    }
+    self.window.backgroundColor = [UIColor whiteColor];
+    UIViewController *vC = [[CustomViewController alloc] init];
+    self.window.rootViewController = vC;
+    //window核心化可见
+    [self.window makeKeyAndVisible];
 }
 
 
