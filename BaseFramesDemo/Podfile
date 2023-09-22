@@ -8,7 +8,7 @@ target 'BaseFramesDemo' do
   # Pods for BaseFramesDemo
   pod 'Masonry', '~> 1.1.0'
   #pod 'ConvenienceKitHaris', '~> 0.1.0'
-  #开源库本地直接映射库
+  #开源库本地直接映射库(维护管理)
   pod 'ConvenienceKitHaris', :path => '~/Desktop/CustomKit/ConvenienceKitHaris'
 
 
