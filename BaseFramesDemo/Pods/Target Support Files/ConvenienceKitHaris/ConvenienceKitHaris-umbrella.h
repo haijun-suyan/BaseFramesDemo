@@ -10,7 +10,11 @@
 #endif
 #endif
 
-#import "UIColor+Hex.h"
+#import "Base64Code.h"
+#import "HarisUtil.h"
+#import "NSObject+TimerDown.h"
+#import "NSString+Attributed.h"
+#import "UIColor+Additions.h"
 
 FOUNDATION_EXPORT double ConvenienceKitHarisVersionNumber;
 FOUNDATION_EXPORT const unsigned char ConvenienceKitHarisVersionString[];
