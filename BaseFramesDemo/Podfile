@@ -6,7 +6,10 @@ target 'BaseFramesDemo' do
   use_frameworks!
 
   # Pods for BaseFramesDemo
-  pod 'ConvenienceKitHaris', '~> 0.1.0'
   pod 'Masonry', '~> 1.1.0'
+  #pod 'ConvenienceKitHaris', '~> 0.1.0'
+  #开源库本地直接映射库
+  pod 'ConvenienceKitHaris', :path => '~/Desktop/CustomKit/ConvenienceKitHaris'
+
 
 end
