@@ -1,20 +1,20 @@
 PODS:
-  - ConvenienceKitHaris (0.1.2)
+  - ConvenienceKitHaris (0.1.5)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - ConvenienceKitHaris (~> 0.1.0)
+  - ConvenienceKitHaris (~> 0.1.5)
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - ConvenienceKitHaris
     - Masonry
 
 SPEC CHECKSUMS:
-  ConvenienceKitHaris: ff53bc2ca76c59538f4f31bc9c19c5dd3b3b16ca
+  ConvenienceKitHaris: 0f48bb4a67f9ed3c9b6b2d9e965906485f875666
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 70a89b1265aee98511a178590178d48133e36b96
+PODFILE CHECKSUM: eaffef3b7162513e804ee9f445a1a8c87c1ae46b
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.11.2
