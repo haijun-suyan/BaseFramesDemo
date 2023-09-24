@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "Base64Code.h"
 #import "HarisUtil.h"
 #import "NSObject+TimerDown.h"
 #import "NSString+Attributed.h"
