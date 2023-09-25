@@ -3,7 +3,7 @@ PODS:
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - ConvenienceKitHaris (~> 0.1.5)
+  - ConvenienceKitHaris (~> 0.1.2)
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
@@ -15,6 +15,6 @@ SPEC CHECKSUMS:
   ConvenienceKitHaris: 0f48bb4a67f9ed3c9b6b2d9e965906485f875666
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: eaffef3b7162513e804ee9f445a1a8c87c1ae46b
+PODFILE CHECKSUM: c3c9652a335d946e4ecf76a33a6eb0a8e1546ba0
 
 COCOAPODS: 1.11.2

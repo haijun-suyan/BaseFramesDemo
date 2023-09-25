@@ -5,7 +5,7 @@ target 'BaseFramesDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for BaseFramesDemo
+  # Pods for bBaseFramesDemo/Users/haijunyan/Desktop/CustomKit/BaseFramesDemo/BaseFramesDemo
   pod 'Masonry', '~> 1.1.0'
   #业务层项目文件夹本身的本地硬盘区内Pods文件夹里的间接映射库(供访问)
   pod 'ConvenienceKitHaris', '~> 0.1.5'
