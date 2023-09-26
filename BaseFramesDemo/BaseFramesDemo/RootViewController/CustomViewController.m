@@ -48,7 +48,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor cyanColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.name; //‘.’执行链触发对应的间接读取事件
     self.name = @"颜海军";//‘.’执行链触发对应的间接写入事件
     [self.view addSubview:self.threadBtn];
@@ -85,7 +85,7 @@
     if (!_threadBtn) {
         _threadBtn = [[UIButton alloc] initWithFrame:CGRectZero];
     }
-    _threadBtn.backgroundColor = [UIColor whiteColor];
+    _threadBtn.backgroundColor = [UIColor cyanColor];
     _threadBtn.titleLabel.font = HarisFont(15);
     _threadBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
     [_threadBtn setTitle:@"多线程分析" forState:UIControlStateNormal];
@@ -97,7 +97,9 @@
 }
 
 -(void)threadBtnClicked:(UIButton *)psender{
-
+    ThreadViewController *vc = [ThreadViewController new];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

@@ -27,7 +27,8 @@
     }
     self.window.backgroundColor = [UIColor whiteColor];
     UIViewController *vC = [[CustomViewController alloc] init];
-    self.window.rootViewController = vC;
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vC];
+    self.window.rootViewController = navigationController;
     //window核心化可见
     [self.window makeKeyAndVisible];
 }
