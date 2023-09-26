@@ -10,5 +10,7 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//业务项目的预处理文件中作引入(业务项目层本身的整个业务域可自由访问)
+#import "ConvenienceKitHaris.h"
 
 #endif /* BaseFramesDemo_Prefix_pch */
