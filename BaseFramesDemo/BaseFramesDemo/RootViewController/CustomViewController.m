@@ -38,6 +38,7 @@
 //'_'下划线命名类构造器层的私有变量
 
 @property(nonatomic,copy)NSString *name;
+@property(nonatomic,strong)UIButton *threadBtn;
 
 @end
 
@@ -50,6 +51,8 @@
     self.view.backgroundColor = [UIColor cyanColor];
     self.name; //‘.’执行链触发对应的间接读取事件
     self.name = @"颜海军";//‘.’执行链触发对应的间接写入事件
+    [self.view addSubview:self.threadBtn];
+    [self.threadBtn setFrame:CGRectMake(50, 50, 80, 40)];
     
 }
 
@@ -75,6 +78,26 @@
 //            _name = name;
 //        }
 //    }
+}
+
+//getter读取事件重构
+- (UIButton *)threadBtn {
+    if (!_threadBtn) {
+        _threadBtn = [[UIButton alloc] initWithFrame:CGRectZero];
+    }
+    _threadBtn.backgroundColor = [UIColor whiteColor];
+    _threadBtn.titleLabel.font = HarisFont(15);
+    _threadBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [_threadBtn setTitle:@"多线程分析" forState:UIControlStateNormal];
+    [_threadBtn setTitle:@"多线程分析" forState:UIControlStateHighlighted];
+    [_threadBtn setTitleColor:kColorWithHex(0x333333) forState:UIControlStateNormal];
+    [_threadBtn setTitleColor:kColorWithHex(0x333333) forState:UIControlStateHighlighted];
+    [_threadBtn addTarget:self action:@selector(threadBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    return _threadBtn;
+}
+
+-(void)threadBtnClicked:(UIButton *)psender{
+
 }
 
 @end
