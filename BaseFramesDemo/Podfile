@@ -8,9 +8,9 @@ target 'BaseFramesDemo' do
   # Pods for bBaseFramesDemo/Users/haijunyan/Desktop/CustomKit/BaseFramesDemo/BaseFramesDemo
   pod 'Masonry', '~> 1.1.0'
   #业务层项目文件夹本身的本地硬盘区内Pods文件夹里的间接映射库(供访问)
-  pod 'ConvenienceKitHaris', '~> 0.1.5'
-  #开源库本地直接映射库(维护管理)
-#  pod 'ConvenienceKitHaris', :path => '~/Desktop/CustomKit/ConvenienceKitHaris'
+#  pod 'ConvenienceKitHaris', '~> 0.1.5'
+  #开源库访问本地直接映射库(维护管理DevelopmentPods)
+  pod 'ConvenienceKitHaris', :path => '~/Desktop/CustomKit/ConvenienceKitHaris'
 
 
 end

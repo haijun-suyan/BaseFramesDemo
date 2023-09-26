@@ -3,18 +3,21 @@ PODS:
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - ConvenienceKitHaris (~> 0.1.2)
+  - ConvenienceKitHaris (from `~/Desktop/CustomKit/ConvenienceKitHaris`)
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
   trunk:
-    - ConvenienceKitHaris
     - Masonry
+
+EXTERNAL SOURCES:
+  ConvenienceKitHaris:
+    :path: "~/Desktop/CustomKit/ConvenienceKitHaris"
 
 SPEC CHECKSUMS:
   ConvenienceKitHaris: 0f48bb4a67f9ed3c9b6b2d9e965906485f875666
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: c3c9652a335d946e4ecf76a33a6eb0a8e1546ba0
+PODFILE CHECKSUM: e9fc42c21869cd7a79edb4f14257e0bae5cf8198
 
 COCOAPODS: 1.11.2
