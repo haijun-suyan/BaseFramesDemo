@@ -39,6 +39,8 @@
 
 @property(nonatomic,copy)NSString *name;
 @property(nonatomic,strong)UIButton *threadBtn;
+@property(nonatomic,strong)UIButton *RTSenseBtn;
+
 
 @end
 
@@ -48,11 +50,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBarHidden = YES;
     self.view.backgroundColor = [UIColor whiteColor];
     self.name; //‘.’执行链触发对应的间接读取事件
     self.name = @"颜海军";//‘.’执行链触发对应的间接写入事件
     [self.view addSubview:self.threadBtn];
     [self.threadBtn setFrame:CGRectMake(50, 50, 80, 40)];
+
+    [self.view addSubview:self.RTSenseBtn];
+    [self.RTSenseBtn setFrame:CGRectMake(50, 150, 80, 40)];
     
 }
 
@@ -101,5 +107,28 @@
     vc.view.backgroundColor = [UIColor whiteColor];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+- (UIButton *)RTSenseBtn {
+    if (!_RTSenseBtn) {
+        _RTSenseBtn = [[UIButton alloc] initWithFrame:CGRectZero];
+    }
+    _RTSenseBtn.backgroundColor = [UIColor cyanColor];
+    _RTSenseBtn.titleLabel.font = HarisFont(15);
+    _RTSenseBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [_RTSenseBtn setTitle:@"RunTime框架的API使用场景" forState:UIControlStateNormal];
+    [_RTSenseBtn setTitle:@"RunTime框架的API使用场景" forState:UIControlStateHighlighted];
+    [_RTSenseBtn setTitleColor:kColorWithHex(0x333333) forState:UIControlStateNormal];
+    [_RTSenseBtn setTitleColor:kColorWithHex(0x333333) forState:UIControlStateHighlighted];
+    [_RTSenseBtn addTarget:self action:@selector(RTSenseBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    return _RTSenseBtn;
+}
+
+-(void)RTSenseBtnClicked:(UIButton *)psender{
+    RTSenseViewController*vc = [RTSenseViewController new];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+
 
 @end
