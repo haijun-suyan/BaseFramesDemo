@@ -53,6 +53,10 @@
 		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
 		F3604C782AC2C5B80082A71A /* ConvenienceKitHaris.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C772AC2C5B80082A71A /* ConvenienceKitHaris.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604C7B2AC31D850082A71A /* ThreadViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C792AC31D850082A71A /* ThreadViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604C7C2AC31D850082A71A /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C7A2AC31D850082A71A /* ThreadViewController.m */; };
+		F3604C7F2AD1595B0082A71A /* RTSenseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C7D2AD1595B0082A71A /* RTSenseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604C802AD1595B0082A71A /* RTSenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C7E2AD1595B0082A71A /* RTSenseViewController.m */; };
 		F3D488AE2AC2A63A004DF4AE /* ResponderChainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D488AC2AC2A63A004DF4AE /* ResponderChainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3D488AF2AC2A63A004DF4AE /* ResponderChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D488AD2AC2A63A004DF4AE /* ResponderChainViewController.m */; };
 		F3D488B22AC2A696004DF4AE /* UIView+Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D488B02AC2A696004DF4AE /* UIView+Responder.m */; };
@@ -145,6 +149,10 @@
 		EF1B97608DA08FE102B6C880A3C9CD36 /* UIColor+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Additions.h"; path = "ConvenienceKitHaris/Classes/UIColor+Additions.h"; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		F3604C772AC2C5B80082A71A /* ConvenienceKitHaris.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConvenienceKitHaris.h; path = ConvenienceKitHaris/Classes/ConvenienceKitHaris.h; sourceTree = "<group>"; };
+		F3604C792AC31D850082A71A /* ThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ThreadViewController.h; path = ConvenienceKitHaris/Classes/ThreadViewController.h; sourceTree = "<group>"; };
+		F3604C7A2AC31D850082A71A /* ThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ThreadViewController.m; path = ConvenienceKitHaris/Classes/ThreadViewController.m; sourceTree = "<group>"; };
+		F3604C7D2AD1595B0082A71A /* RTSenseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RTSenseViewController.h; path = ConvenienceKitHaris/Classes/RTSenseViewController.h; sourceTree = "<group>"; };
+		F3604C7E2AD1595B0082A71A /* RTSenseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RTSenseViewController.m; path = ConvenienceKitHaris/Classes/RTSenseViewController.m; sourceTree = "<group>"; };
 		F3D488AC2AC2A63A004DF4AE /* ResponderChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResponderChainViewController.h; path = ConvenienceKitHaris/Classes/ResponderChainViewController.h; sourceTree = "<group>"; };
 		F3D488AD2AC2A63A004DF4AE /* ResponderChainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResponderChainViewController.m; path = ConvenienceKitHaris/Classes/ResponderChainViewController.m; sourceTree = "<group>"; };
 		F3D488B02AC2A696004DF4AE /* UIView+Responder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Responder.m"; path = "ConvenienceKitHaris/Classes/UIView+Responder.m"; sourceTree = "<group>"; };
@@ -300,15 +308,19 @@
 				38277FA16A135B876BAFD2D327A0C341 /* HarisUtil.m */,
 				F3D488B12AC2A696004DF4AE /* UIView+Responder.h */,
 				F3D488B02AC2A696004DF4AE /* UIView+Responder.m */,
+				F3604C792AC31D850082A71A /* ThreadViewController.h */,
+				F3604C7A2AC31D850082A71A /* ThreadViewController.m */,
+				F3604C7D2AD1595B0082A71A /* RTSenseViewController.h */,
+				F3604C7E2AD1595B0082A71A /* RTSenseViewController.m */,
 				F3D488AC2AC2A63A004DF4AE /* ResponderChainViewController.h */,
 				F3D488AD2AC2A63A004DF4AE /* ResponderChainViewController.m */,
 				C00E15ADBD607E1963C2E81EDB456208 /* NSObject+TimerDown.h */,
 				B9CD7F0A1D219B1E5D390D1A11225854 /* NSObject+TimerDown.m */,
 				D806E4DD12E26F0667EF03F3E577F1A1 /* NSString+Attributed.h */,
 				0E98092369EB2CC42DD0AD2963C32707 /* NSString+Attributed.m */,
-				B45F6E36A6BF66756763F156C3552E12 /* ReplaceMe.m */,
 				EF1B97608DA08FE102B6C880A3C9CD36 /* UIColor+Additions.h */,
 				AEC5729107DAED4922C4A99934B060BB /* UIColor+Additions.m */,
+				B45F6E36A6BF66756763F156C3552E12 /* ReplaceMe.m */,
 				26AF27C3A2543B30F80A5A95A0D00EC8 /* Pod */,
 				C19095FD2C82430953988E5418F69D56 /* Support Files */,
 			);
@@ -390,9 +402,11 @@
 			files = (
 				382B6DCFC3347541F6743C16016329F9 /* ConvenienceKitHaris-umbrella.h in Headers */,
 				57C5EBEFC9DEF90B11A3FC9B6D434D91 /* HarisUtil.h in Headers */,
+				F3604C7F2AD1595B0082A71A /* RTSenseViewController.h in Headers */,
 				F3D488AE2AC2A63A004DF4AE /* ResponderChainViewController.h in Headers */,
 				63E5A56E4D6B487CE6241F8D5D4B8D15 /* NSObject+TimerDown.h in Headers */,
 				F3D488B32AC2A696004DF4AE /* UIView+Responder.h in Headers */,
+				F3604C7B2AC31D850082A71A /* ThreadViewController.h in Headers */,
 				4180217088B27BFE2B5C7E8AA416D093 /* NSString+Attributed.h in Headers */,
 				331EC2FA3070AF1A0B7EE50D045E522E /* UIColor+Additions.h in Headers */,
 				F3604C782AC2C5B80082A71A /* ConvenienceKitHaris.h in Headers */,
@@ -552,6 +566,8 @@
 			files = (
 				E34D7E32041844EF75F922C2DEE14004 /* ConvenienceKitHaris-dummy.m in Sources */,
 				4694DFAFD4D2A8FD9E365E329E715895 /* DemoDemo-Prefix.pch in Sources */,
+				F3604C802AD1595B0082A71A /* RTSenseViewController.m in Sources */,
+				F3604C7C2AC31D850082A71A /* ThreadViewController.m in Sources */,
 				859F4335A555AF654F9B0AB458E6D792 /* HarisUtil.m in Sources */,
 				F3D488B22AC2A696004DF4AE /* UIView+Responder.m in Sources */,
 				3BF17D7C3C7053DC5F6B08610C873AE0 /* NSObject+TimerDown.m in Sources */,
