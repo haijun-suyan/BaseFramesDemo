@@ -58,7 +58,7 @@
     [self.threadBtn setFrame:CGRectMake(50, 50, 80, 40)];
 
     [self.view addSubview:self.RTSenseBtn];
-    [self.RTSenseBtn setFrame:CGRectMake(50, 150, 80, 40)];
+    [self.RTSenseBtn setFrame:CGRectMake(50, 150, 250, 40)];
     
 }
 
