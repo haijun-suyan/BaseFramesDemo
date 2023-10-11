@@ -40,6 +40,7 @@
 @property(nonatomic,copy)NSString *name;
 @property(nonatomic,strong)UIButton *threadBtn;
 @property(nonatomic,strong)UIButton *RTSenseBtn;
+@property(nonatomic,strong)UIButton *abstractFactoryBtn;
 @property(nonatomic,strong)UIButton *KVCUseRuleBtn;
 
 
@@ -61,8 +62,13 @@
     [self.view addSubview:self.RTSenseBtn];
     [self.RTSenseBtn setFrame:CGRectMake(50, 150, 250, 40)];
 
+    [self.view addSubview:self.abstractFactoryBtn];
+    [self.abstractFactoryBtn setFrame:CGRectMake(50, 250, 250, 40)];
+
     [self.view addSubview:self.KVCUseRuleBtn];
-    [self.KVCUseRuleBtn setFrame:CGRectMake(50, 250, 250, 40)];
+    [self.KVCUseRuleBtn setFrame:CGRectMake(50, 350, 250, 40)];
+
+
     
 }
 
@@ -153,6 +159,29 @@
     vc.view.backgroundColor = [UIColor whiteColor];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+- (UIButton *)abstractFactoryBtn {
+    if (!_abstractFactoryBtn) {
+        _abstractFactoryBtn = [[UIButton alloc] initWithFrame:CGRectZero];
+    }
+    _abstractFactoryBtn.backgroundColor = [UIColor cyanColor];
+    _abstractFactoryBtn.titleLabel.font = HarisFont(15);
+    _abstractFactoryBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [_abstractFactoryBtn setTitle:@"抽象工厂" forState:UIControlStateNormal];
+    [_abstractFactoryBtn setTitle:@"抽象工厂" forState:UIControlStateHighlighted];
+    [_abstractFactoryBtn setTitleColor:kColorWithHex(0x333333) forState:UIControlStateNormal];
+    [_abstractFactoryBtn setTitleColor:kColorWithHex(0x333333) forState:UIControlStateHighlighted];
+    [_abstractFactoryBtn addTarget:self action:@selector(abstractFactoryBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    return _abstractFactoryBtn;
+}
+
+-(void)abstractFactoryBtnClicked:(UIButton *)psender{
+    AbstractFactoryViewController*vc = [AbstractFactoryViewController new];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+
 
 
 
