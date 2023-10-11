@@ -40,6 +40,7 @@
 @property(nonatomic,copy)NSString *name;
 @property(nonatomic,strong)UIButton *threadBtn;
 @property(nonatomic,strong)UIButton *RTSenseBtn;
+@property(nonatomic,strong)UIButton *KVCUseRuleBtn;
 
 
 @end
@@ -59,6 +60,9 @@
 
     [self.view addSubview:self.RTSenseBtn];
     [self.RTSenseBtn setFrame:CGRectMake(50, 150, 250, 40)];
+
+    [self.view addSubview:self.KVCUseRuleBtn];
+    [self.KVCUseRuleBtn setFrame:CGRectMake(50, 250, 250, 40)];
     
 }
 
@@ -128,6 +132,30 @@
     vc.view.backgroundColor = [UIColor whiteColor];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+- (UIButton *)KVCUseRuleBtn {
+    if (!_KVCUseRuleBtn) {
+        _KVCUseRuleBtn = [[UIButton alloc] initWithFrame:CGRectZero];
+    }
+    _KVCUseRuleBtn.backgroundColor = [UIColor cyanColor];
+    _KVCUseRuleBtn.titleLabel.font = HarisFont(15);
+    _KVCUseRuleBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [_KVCUseRuleBtn setTitle:@"KVC使用及原理" forState:UIControlStateNormal];
+    [_KVCUseRuleBtn setTitle:@"KVC使用及原理" forState:UIControlStateHighlighted];
+    [_KVCUseRuleBtn setTitleColor:kColorWithHex(0x333333) forState:UIControlStateNormal];
+    [_KVCUseRuleBtn setTitleColor:kColorWithHex(0x333333) forState:UIControlStateHighlighted];
+    [_KVCUseRuleBtn addTarget:self action:@selector(KVCUseRuleBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    return _KVCUseRuleBtn;
+}
+
+-(void)KVCUseRuleBtnClicked:(UIButton *)psender{
+    KVCUseRuleViewController*vc = [KVCUseRuleViewController new];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+
+
 
 
 
