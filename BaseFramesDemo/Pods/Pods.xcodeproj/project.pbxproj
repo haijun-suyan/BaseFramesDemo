@@ -57,6 +57,35 @@
 		F3604C7C2AC31D850082A71A /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C7A2AC31D850082A71A /* ThreadViewController.m */; };
 		F3604C7F2AD1595B0082A71A /* RTSenseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C7D2AD1595B0082A71A /* RTSenseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3604C802AD1595B0082A71A /* RTSenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C7E2AD1595B0082A71A /* RTSenseViewController.m */; };
+		F3604C832AD172F00082A71A /* UIView+Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C812AD172F00082A71A /* UIView+Swizzle.h */; };
+		F3604C842AD172F00082A71A /* UIView+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C822AD172F00082A71A /* UIView+Swizzle.m */; };
+		F3604C8B2AD1C22D0082A71A /* LoseIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C892AD1C22D0082A71A /* LoseIMP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604C8C2AD1C22D0082A71A /* LoseIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C8A2AD1C22D0082A71A /* LoseIMP.m */; };
+		F3604C8F2AD458C00082A71A /* NSObject+Associated.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C8D2AD458C00082A71A /* NSObject+Associated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604C902AD458C00082A71A /* NSObject+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C8E2AD458C00082A71A /* NSObject+Associated.m */; };
+		F3604C932AD5451C0082A71A /* UIView+Associated.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C912AD5451C0082A71A /* UIView+Associated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604C942AD5451C0082A71A /* UIView+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C922AD5451C0082A71A /* UIView+Associated.m */; };
+		F3604C972AD6BFEF0082A71A /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C952AD6BFEF0082A71A /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604C982AD6BFEF0082A71A /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C962AD6BFEF0082A71A /* Product.m */; };
+		F3604C9B2AD6C11B0082A71A /* KVCUseRuleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604C992AD6C11B0082A71A /* KVCUseRuleViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604C9C2AD6C11B0082A71A /* KVCUseRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C9A2AD6C11B0082A71A /* KVCUseRuleViewController.m */; };
+		F3604CAF2AD6C83F0082A71A /* FactoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604C9E2AD6C83F0082A71A /* FactoryManager.m */; };
+		F3604CB02AD6C83F0082A71A /* BaseGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604CA02AD6C83F0082A71A /* BaseGoods.m */; };
+		F3604CB12AD6C83F0082A71A /* IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604CA12AD6C83F0082A71A /* IPhone.m */; };
+		F3604CB22AD6C83F0082A71A /* Android.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604CA22AD6C83F0082A71A /* Android.m */; };
+		F3604CB32AD6C83F0082A71A /* BaseGoods.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CA32AD6C83F0082A71A /* BaseGoods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CB42AD6C83F0082A71A /* GoodsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CA42AD6C83F0082A71A /* GoodsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CB52AD6C83F0082A71A /* IPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CA52AD6C83F0082A71A /* IPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CB62AD6C83F0082A71A /* Android.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CA62AD6C83F0082A71A /* Android.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CB72AD6C83F0082A71A /* AppleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CA82AD6C83F0082A71A /* AppleFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CB82AD6C83F0082A71A /* GoogleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604CA92AD6C83F0082A71A /* GoogleFactory.m */; };
+		F3604CB92AD6C83F0082A71A /* BaseFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CAA2AD6C83F0082A71A /* BaseFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CBA2AD6C83F0082A71A /* GoogleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CAB2AD6C83F0082A71A /* GoogleFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CBB2AD6C83F0082A71A /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604CAC2AD6C83F0082A71A /* AppleFactory.m */; };
+		F3604CBC2AD6C83F0082A71A /* BaseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604CAD2AD6C83F0082A71A /* BaseFactory.m */; };
+		F3604CBD2AD6C83F0082A71A /* FactoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CAE2AD6C83F0082A71A /* FactoryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CC02AD6CAEC0082A71A /* AbstractFactoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3604CBE2AD6CAEC0082A71A /* AbstractFactoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3604CC12AD6CAEC0082A71A /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3604CBF2AD6CAEC0082A71A /* AbstractFactoryViewController.m */; };
 		F3D488AE2AC2A63A004DF4AE /* ResponderChainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D488AC2AC2A63A004DF4AE /* ResponderChainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3D488AF2AC2A63A004DF4AE /* ResponderChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D488AD2AC2A63A004DF4AE /* ResponderChainViewController.m */; };
 		F3D488B22AC2A696004DF4AE /* UIView+Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D488B02AC2A696004DF4AE /* UIView+Responder.m */; };
@@ -153,6 +182,35 @@
 		F3604C7A2AC31D850082A71A /* ThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ThreadViewController.m; path = ConvenienceKitHaris/Classes/ThreadViewController.m; sourceTree = "<group>"; };
 		F3604C7D2AD1595B0082A71A /* RTSenseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RTSenseViewController.h; path = ConvenienceKitHaris/Classes/RTSenseViewController.h; sourceTree = "<group>"; };
 		F3604C7E2AD1595B0082A71A /* RTSenseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RTSenseViewController.m; path = ConvenienceKitHaris/Classes/RTSenseViewController.m; sourceTree = "<group>"; };
+		F3604C812AD172F00082A71A /* UIView+Swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Swizzle.h"; path = "ConvenienceKitHaris/Classes/UIView+Swizzle.h"; sourceTree = "<group>"; };
+		F3604C822AD172F00082A71A /* UIView+Swizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+Swizzle.m"; path = "ConvenienceKitHaris/Classes/UIView+Swizzle.m"; sourceTree = "<group>"; };
+		F3604C892AD1C22D0082A71A /* LoseIMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoseIMP.h; path = ConvenienceKitHaris/Classes/LoseIMP.h; sourceTree = "<group>"; };
+		F3604C8A2AD1C22D0082A71A /* LoseIMP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoseIMP.m; path = ConvenienceKitHaris/Classes/LoseIMP.m; sourceTree = "<group>"; };
+		F3604C8D2AD458C00082A71A /* NSObject+Associated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject+Associated.h"; path = "ConvenienceKitHaris/Classes/NSObject+Associated.h"; sourceTree = "<group>"; };
+		F3604C8E2AD458C00082A71A /* NSObject+Associated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Associated.m"; path = "ConvenienceKitHaris/Classes/NSObject+Associated.m"; sourceTree = "<group>"; };
+		F3604C912AD5451C0082A71A /* UIView+Associated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Associated.h"; path = "ConvenienceKitHaris/Classes/UIView+Associated.h"; sourceTree = "<group>"; };
+		F3604C922AD5451C0082A71A /* UIView+Associated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+Associated.m"; path = "ConvenienceKitHaris/Classes/UIView+Associated.m"; sourceTree = "<group>"; };
+		F3604C952AD6BFEF0082A71A /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Product.h; path = ConvenienceKitHaris/Classes/Product.h; sourceTree = "<group>"; };
+		F3604C962AD6BFEF0082A71A /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = ConvenienceKitHaris/Classes/Product.m; sourceTree = "<group>"; };
+		F3604C992AD6C11B0082A71A /* KVCUseRuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KVCUseRuleViewController.h; path = ConvenienceKitHaris/Classes/KVCUseRuleViewController.h; sourceTree = "<group>"; };
+		F3604C9A2AD6C11B0082A71A /* KVCUseRuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KVCUseRuleViewController.m; path = ConvenienceKitHaris/Classes/KVCUseRuleViewController.m; sourceTree = "<group>"; };
+		F3604C9E2AD6C83F0082A71A /* FactoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryManager.m; sourceTree = "<group>"; };
+		F3604CA02AD6C83F0082A71A /* BaseGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGoods.m; sourceTree = "<group>"; };
+		F3604CA12AD6C83F0082A71A /* IPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhone.m; sourceTree = "<group>"; };
+		F3604CA22AD6C83F0082A71A /* Android.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Android.m; sourceTree = "<group>"; };
+		F3604CA32AD6C83F0082A71A /* BaseGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGoods.h; sourceTree = "<group>"; };
+		F3604CA42AD6C83F0082A71A /* GoodsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsProtocol.h; sourceTree = "<group>"; };
+		F3604CA52AD6C83F0082A71A /* IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhone.h; sourceTree = "<group>"; };
+		F3604CA62AD6C83F0082A71A /* Android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Android.h; sourceTree = "<group>"; };
+		F3604CA82AD6C83F0082A71A /* AppleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		F3604CA92AD6C83F0082A71A /* GoogleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleFactory.m; sourceTree = "<group>"; };
+		F3604CAA2AD6C83F0082A71A /* BaseFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFactory.h; sourceTree = "<group>"; };
+		F3604CAB2AD6C83F0082A71A /* GoogleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleFactory.h; sourceTree = "<group>"; };
+		F3604CAC2AD6C83F0082A71A /* AppleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		F3604CAD2AD6C83F0082A71A /* BaseFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFactory.m; sourceTree = "<group>"; };
+		F3604CAE2AD6C83F0082A71A /* FactoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryManager.h; sourceTree = "<group>"; };
+		F3604CBE2AD6CAEC0082A71A /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AbstractFactoryViewController.h; path = ConvenienceKitHaris/Classes/AbstractFactoryViewController.h; sourceTree = "<group>"; };
+		F3604CBF2AD6CAEC0082A71A /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AbstractFactoryViewController.m; path = ConvenienceKitHaris/Classes/AbstractFactoryViewController.m; sourceTree = "<group>"; };
 		F3D488AC2AC2A63A004DF4AE /* ResponderChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResponderChainViewController.h; path = ConvenienceKitHaris/Classes/ResponderChainViewController.h; sourceTree = "<group>"; };
 		F3D488AD2AC2A63A004DF4AE /* ResponderChainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResponderChainViewController.m; path = ConvenienceKitHaris/Classes/ResponderChainViewController.m; sourceTree = "<group>"; };
 		F3D488B02AC2A696004DF4AE /* UIView+Responder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Responder.m"; path = "ConvenienceKitHaris/Classes/UIView+Responder.m"; sourceTree = "<group>"; };
@@ -302,6 +360,7 @@
 		B23D80388DCFA16E2821581D7091ADE7 /* ConvenienceKitHaris */ = {
 			isa = PBXGroup;
 			children = (
+				F3604C9D2AD6C83F0082A71A /* AbstractFactoryPattern */,
 				87351E64E9B4FA70D14D76A182791328 /* DemoDemo-Prefix.pch */,
 				F3604C772AC2C5B80082A71A /* ConvenienceKitHaris.h */,
 				8EF62940195193EF48CD44A7135C07C9 /* HarisUtil.h */,
@@ -312,14 +371,28 @@
 				F3604C7A2AC31D850082A71A /* ThreadViewController.m */,
 				F3604C7D2AD1595B0082A71A /* RTSenseViewController.h */,
 				F3604C7E2AD1595B0082A71A /* RTSenseViewController.m */,
+				F3604CBE2AD6CAEC0082A71A /* AbstractFactoryViewController.h */,
+				F3604CBF2AD6CAEC0082A71A /* AbstractFactoryViewController.m */,
+				F3604C992AD6C11B0082A71A /* KVCUseRuleViewController.h */,
+				F3604C9A2AD6C11B0082A71A /* KVCUseRuleViewController.m */,
+				F3604C952AD6BFEF0082A71A /* Product.h */,
+				F3604C962AD6BFEF0082A71A /* Product.m */,
 				F3D488AC2AC2A63A004DF4AE /* ResponderChainViewController.h */,
 				F3D488AD2AC2A63A004DF4AE /* ResponderChainViewController.m */,
+				F3604C892AD1C22D0082A71A /* LoseIMP.h */,
+				F3604C8A2AD1C22D0082A71A /* LoseIMP.m */,
 				C00E15ADBD607E1963C2E81EDB456208 /* NSObject+TimerDown.h */,
 				B9CD7F0A1D219B1E5D390D1A11225854 /* NSObject+TimerDown.m */,
+				F3604C8D2AD458C00082A71A /* NSObject+Associated.h */,
+				F3604C8E2AD458C00082A71A /* NSObject+Associated.m */,
+				F3604C912AD5451C0082A71A /* UIView+Associated.h */,
+				F3604C922AD5451C0082A71A /* UIView+Associated.m */,
 				D806E4DD12E26F0667EF03F3E577F1A1 /* NSString+Attributed.h */,
 				0E98092369EB2CC42DD0AD2963C32707 /* NSString+Attributed.m */,
 				EF1B97608DA08FE102B6C880A3C9CD36 /* UIColor+Additions.h */,
 				AEC5729107DAED4922C4A99934B060BB /* UIColor+Additions.m */,
+				F3604C812AD172F00082A71A /* UIView+Swizzle.h */,
+				F3604C822AD172F00082A71A /* UIView+Swizzle.m */,
 				B45F6E36A6BF66756763F156C3552E12 /* ReplaceMe.m */,
 				26AF27C3A2543B30F80A5A95A0D00EC8 /* Pod */,
 				C19095FD2C82430953988E5418F69D56 /* Support Files */,
@@ -370,6 +443,45 @@
 			);
 			sourceTree = "<group>";
 		};
+		F3604C9D2AD6C83F0082A71A /* AbstractFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F3604CAE2AD6C83F0082A71A /* FactoryManager.h */,
+				F3604C9E2AD6C83F0082A71A /* FactoryManager.m */,
+				F3604CA72AD6C83F0082A71A /* Factory */,
+				F3604C9F2AD6C83F0082A71A /* Phone */,
+			);
+			name = AbstractFactoryPattern;
+			path = ConvenienceKitHaris/Classes/AbstractFactoryPattern;
+			sourceTree = "<group>";
+		};
+		F3604C9F2AD6C83F0082A71A /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				F3604CA32AD6C83F0082A71A /* BaseGoods.h */,
+				F3604CA02AD6C83F0082A71A /* BaseGoods.m */,
+				F3604CA52AD6C83F0082A71A /* IPhone.h */,
+				F3604CA12AD6C83F0082A71A /* IPhone.m */,
+				F3604CA62AD6C83F0082A71A /* Android.h */,
+				F3604CA22AD6C83F0082A71A /* Android.m */,
+				F3604CA42AD6C83F0082A71A /* GoodsProtocol.h */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		F3604CA72AD6C83F0082A71A /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				F3604CA82AD6C83F0082A71A /* AppleFactory.h */,
+				F3604CAC2AD6C83F0082A71A /* AppleFactory.m */,
+				F3604CAB2AD6C83F0082A71A /* GoogleFactory.h */,
+				F3604CA92AD6C83F0082A71A /* GoogleFactory.m */,
+				F3604CAA2AD6C83F0082A71A /* BaseFactory.h */,
+				F3604CAD2AD6C83F0082A71A /* BaseFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -400,16 +512,31 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3604CB92AD6C83F0082A71A /* BaseFactory.h in Headers */,
+				F3604CBD2AD6C83F0082A71A /* FactoryManager.h in Headers */,
+				F3604CB32AD6C83F0082A71A /* BaseGoods.h in Headers */,
 				382B6DCFC3347541F6743C16016329F9 /* ConvenienceKitHaris-umbrella.h in Headers */,
+				F3604C932AD5451C0082A71A /* UIView+Associated.h in Headers */,
 				57C5EBEFC9DEF90B11A3FC9B6D434D91 /* HarisUtil.h in Headers */,
 				F3604C7F2AD1595B0082A71A /* RTSenseViewController.h in Headers */,
 				F3D488AE2AC2A63A004DF4AE /* ResponderChainViewController.h in Headers */,
+				F3604C8F2AD458C00082A71A /* NSObject+Associated.h in Headers */,
+				F3604CB42AD6C83F0082A71A /* GoodsProtocol.h in Headers */,
+				F3604CB62AD6C83F0082A71A /* Android.h in Headers */,
+				F3604C972AD6BFEF0082A71A /* Product.h in Headers */,
+				F3604CB52AD6C83F0082A71A /* IPhone.h in Headers */,
 				63E5A56E4D6B487CE6241F8D5D4B8D15 /* NSObject+TimerDown.h in Headers */,
+				F3604C9B2AD6C11B0082A71A /* KVCUseRuleViewController.h in Headers */,
+				F3604C8B2AD1C22D0082A71A /* LoseIMP.h in Headers */,
 				F3D488B32AC2A696004DF4AE /* UIView+Responder.h in Headers */,
 				F3604C7B2AC31D850082A71A /* ThreadViewController.h in Headers */,
+				F3604CB72AD6C83F0082A71A /* AppleFactory.h in Headers */,
+				F3604C832AD172F00082A71A /* UIView+Swizzle.h in Headers */,
 				4180217088B27BFE2B5C7E8AA416D093 /* NSString+Attributed.h in Headers */,
 				331EC2FA3070AF1A0B7EE50D045E522E /* UIColor+Additions.h in Headers */,
 				F3604C782AC2C5B80082A71A /* ConvenienceKitHaris.h in Headers */,
+				F3604CC02AD6CAEC0082A71A /* AbstractFactoryViewController.h in Headers */,
+				F3604CBA2AD6C83F0082A71A /* GoogleFactory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,14 +693,28 @@
 			files = (
 				E34D7E32041844EF75F922C2DEE14004 /* ConvenienceKitHaris-dummy.m in Sources */,
 				4694DFAFD4D2A8FD9E365E329E715895 /* DemoDemo-Prefix.pch in Sources */,
+				F3604CAF2AD6C83F0082A71A /* FactoryManager.m in Sources */,
+				F3604CBC2AD6C83F0082A71A /* BaseFactory.m in Sources */,
+				F3604CB02AD6C83F0082A71A /* BaseGoods.m in Sources */,
+				F3604C942AD5451C0082A71A /* UIView+Associated.m in Sources */,
 				F3604C802AD1595B0082A71A /* RTSenseViewController.m in Sources */,
+				F3604CBB2AD6C83F0082A71A /* AppleFactory.m in Sources */,
+				F3604C842AD172F00082A71A /* UIView+Swizzle.m in Sources */,
+				F3604C982AD6BFEF0082A71A /* Product.m in Sources */,
 				F3604C7C2AC31D850082A71A /* ThreadViewController.m in Sources */,
 				859F4335A555AF654F9B0AB458E6D792 /* HarisUtil.m in Sources */,
+				F3604C8C2AD1C22D0082A71A /* LoseIMP.m in Sources */,
 				F3D488B22AC2A696004DF4AE /* UIView+Responder.m in Sources */,
+				F3604CB22AD6C83F0082A71A /* Android.m in Sources */,
 				3BF17D7C3C7053DC5F6B08610C873AE0 /* NSObject+TimerDown.m in Sources */,
 				071CA178E3172272189566CD90473D36 /* NSString+Attributed.m in Sources */,
+				F3604CB12AD6C83F0082A71A /* IPhone.m in Sources */,
+				F3604CC12AD6CAEC0082A71A /* AbstractFactoryViewController.m in Sources */,
 				F3D488AF2AC2A63A004DF4AE /* ResponderChainViewController.m in Sources */,
+				F3604C902AD458C00082A71A /* NSObject+Associated.m in Sources */,
 				C058E9ED2610DDEBDBC486E7BA8F674B /* ReplaceMe.m in Sources */,
+				F3604CB82AD6C83F0082A71A /* GoogleFactory.m in Sources */,
+				F3604C9C2AD6C11B0082A71A /* KVCUseRuleViewController.m in Sources */,
 				7684A7CC6B1F82BD21943562B3CC79A9 /* UIColor+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
