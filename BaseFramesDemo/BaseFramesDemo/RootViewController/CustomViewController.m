@@ -176,9 +176,13 @@
 }
 
 -(void)abstractFactoryBtnClicked:(UIButton *)psender{
-    AbstractFactoryViewController*vc = [AbstractFactoryViewController new];
-    vc.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController pushViewController:vc animated:YES];
+//    AbstractFactoryViewController*vc = [AbstractFactoryViewController new];
+//    vc.view.backgroundColor = [UIColor whiteColor];
+//    [self.navigationController pushViewController:vc animated:YES];
+
+    [StaticLibTools testDemo];
+
+    
 }
 
 
