@@ -18,6 +18,7 @@
 		F338E15C25A3485C00763D45 /* AppDelegate+LifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = F338E15B25A3485C00763D45 /* AppDelegate+LifeCircle.m */; };
 		F338E15F25A348AF00763D45 /* AppDelegate+RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = F338E15E25A348AF00763D45 /* AppDelegate+RootController.m */; };
 		F3591A8C259B57EE00CF881B /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3591A8B259B57EE00CF881B /* CustomViewController.m */; };
+		F363CABD2ADE96F000DB32F5 /* libStaticLibTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F363CABC2ADE96F000DB32F5 /* libStaticLibTools.a */; };
 		F3B1D5C72ABC9238002C5E03 /* header_jiantou_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1D5C22ABC9238002C5E03 /* header_jiantou_mark.png */; };
 		F3B1D5C82ABC9238002C5E03 /* header_jiantou_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1D5C32ABC9238002C5E03 /* header_jiantou_nor.png */; };
 		F3B1D5C92ABC9238002C5E03 /* PullDownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1D5C52ABC9238002C5E03 /* PullDownTableViewCell.m */; };
@@ -51,6 +52,8 @@
 		F3591A8B259B57EE00CF881B /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		F3591A8E259B777700CF881B /* BatchIntroduceBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatchIntroduceBase.h; sourceTree = "<group>"; };
 		F3591A8F259B78EA00CF881B /* BatchIntroduceScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatchIntroduceScene.h; sourceTree = "<group>"; };
+		F363CABC2ADE96F000DB32F5 /* libStaticLibTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticLibTools.a; sourceTree = "<group>"; };
+		F363CABE2ADE970100DB32F5 /* StaticLibTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticLibTools.h; sourceTree = "<group>"; };
 		F3B1D5C02ABC9238002C5E03 /* CustomPullDownTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPullDownTableView.h; sourceTree = "<group>"; };
 		F3B1D5C22ABC9238002C5E03 /* header_jiantou_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_jiantou_mark.png; sourceTree = "<group>"; };
 		F3B1D5C32ABC9238002C5E03 /* header_jiantou_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_jiantou_nor.png; sourceTree = "<group>"; };
@@ -66,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E9327BF7A19EA83819ED14 /* Pods_BaseFramesDemo.framework in Frameworks */,
+				F363CABD2ADE96F000DB32F5 /* libStaticLibTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +96,8 @@
 		F31B4A26258F216C004E77B4 = {
 			isa = PBXGroup;
 			children = (
+				F363CABC2ADE96F000DB32F5 /* libStaticLibTools.a */,
+				F363CABE2ADE970100DB32F5 /* StaticLibTools.h */,
 				F3CB0B902593820700D330F1 /* BaseFramesDemo-Prefix.pch */,
 				F31B4A31258F216C004E77B4 /* BaseFramesDemo */,
 				F31B4A30258F216C004E77B4 /* Products */,
@@ -547,7 +553,7 @@
 		F31B4A27258F216C004E77B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = haijunyan;
 				TargetAttributes = {
 					F31B4A2E258F216C004E77B4 = {
@@ -687,6 +693,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -745,6 +752,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -782,10 +790,14 @@
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "BaseFramesDemo-Prefix.pch";
 				INFOPLIST_FILE = BaseFramesDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = haijunyan.BaseFramesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -804,10 +816,14 @@
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "BaseFramesDemo-Prefix.pch";
 				INFOPLIST_FILE = BaseFramesDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = haijunyan.BaseFramesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
