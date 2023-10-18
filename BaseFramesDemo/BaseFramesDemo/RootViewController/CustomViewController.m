@@ -180,7 +180,9 @@
 //    vc.view.backgroundColor = [UIColor whiteColor];
 //    [self.navigationController pushViewController:vc animated:YES];
 
-    [StaticLibTools testDemo];
+//    [StaticLibTools testDemo];
+
+    [[SayHelloFunc alloc] sayHello];
 
     
 }

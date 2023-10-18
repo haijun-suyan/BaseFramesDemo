@@ -13,4 +13,5 @@
 //业务项目的预处理文件中作引入(业务项目层本身的整个业务域可自由访问)
 #import "ConvenienceKitHaris.h"
 #import "StaticLibTools.h"
+#import "HarisFirstFramework/HarisFirstFramework.h"
 #endif /* BaseFramesDemo_Prefix_pch */
