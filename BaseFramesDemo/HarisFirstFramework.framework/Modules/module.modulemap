@@ -1,0 +1,6 @@
+framework module HarisFirstFramework {
+  umbrella header "HarisFirstFramework.h"
+
+  export *
+  module * { export * }
+}
