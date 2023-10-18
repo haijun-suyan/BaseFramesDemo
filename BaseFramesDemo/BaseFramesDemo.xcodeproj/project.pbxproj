@@ -23,6 +23,7 @@
 		F3B1D5C82ABC9238002C5E03 /* header_jiantou_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1D5C32ABC9238002C5E03 /* header_jiantou_nor.png */; };
 		F3B1D5C92ABC9238002C5E03 /* PullDownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1D5C52ABC9238002C5E03 /* PullDownTableViewCell.m */; };
 		F3B1D5CA2ABC9238002C5E03 /* CustomPullDownTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1D5C62ABC9238002C5E03 /* CustomPullDownTableView.m */; };
+		F3F841C92ADFF139008347C6 /* HarisFirstFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F841C82ADFF139008347C6 /* HarisFirstFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		F3B1D5C52ABC9238002C5E03 /* PullDownTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownTableViewCell.m; sourceTree = "<group>"; };
 		F3B1D5C62ABC9238002C5E03 /* CustomPullDownTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPullDownTableView.m; sourceTree = "<group>"; };
 		F3CB0B902593820700D330F1 /* BaseFramesDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseFramesDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F3F841C82ADFF139008347C6 /* HarisFirstFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HarisFirstFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			files = (
 				34E9327BF7A19EA83819ED14 /* Pods_BaseFramesDemo.framework in Frameworks */,
 				F363CABD2ADE96F000DB32F5 /* libStaticLibTools.a in Frameworks */,
+				F3F841C92ADFF139008347C6 /* HarisFirstFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 		F31B4A26258F216C004E77B4 = {
 			isa = PBXGroup;
 			children = (
+				F3F841C82ADFF139008347C6 /* HarisFirstFramework.framework */,
 				F363CABC2ADE96F000DB32F5 /* libStaticLibTools.a */,
 				F363CABE2ADE970100DB32F5 /* StaticLibTools.h */,
 				F3CB0B902593820700D330F1 /* BaseFramesDemo-Prefix.pch */,
@@ -788,6 +792,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCL9H5966U;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "BaseFramesDemo-Prefix.pch";
 				INFOPLIST_FILE = BaseFramesDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -814,6 +822,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCL9H5966U;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "BaseFramesDemo-Prefix.pch";
 				INFOPLIST_FILE = BaseFramesDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
